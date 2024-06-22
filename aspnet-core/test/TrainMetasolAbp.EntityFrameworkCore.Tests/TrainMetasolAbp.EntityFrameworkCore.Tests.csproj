@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\TrainMetasolAbp.EntityFrameworkCore\TrainMetasolAbp.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\TrainMetasolAbp.Application.Tests\TrainMetasolAbp.Application.Tests.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.1.4" />
   </ItemGroup>
 
