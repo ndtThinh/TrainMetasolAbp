@@ -5,11 +5,12 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <RootNamespace>TrainMetasolAbp</RootNamespace>
+    <RootNamespace>TrainMetasolAbp.Admin</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TrainMetasolAbp.Application\TrainMetasolAbp.Application.csproj" />
+    <ProjectReference Include="..\..\src\TrainMetasolAbp.Admin.Application\TrainMetasolAbp.Admin.Application.csproj" />
+    <ProjectReference Include="..\..\src\TrainMetasolAbp.Admin.HttpApi.Client\TrainMetasolAbp.Admin.HttpApi.Client.csproj" />
     <ProjectReference Include="..\TrainMetasolAbp.Domain.Tests\TrainMetasolAbp.Domain.Tests.csproj" />
   </ItemGroup>
 
