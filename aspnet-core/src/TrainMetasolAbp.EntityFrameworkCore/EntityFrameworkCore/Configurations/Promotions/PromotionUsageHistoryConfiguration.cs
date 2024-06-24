@@ -13,7 +13,7 @@ namespace TrainMetasolAbp.EntityFrameworkCore.Configurations.Promotions
     {
         public void Configure(EntityTypeBuilder<PromotionUsageHistory> builder)
         {
-            builder.ToTable(TeduEcommerceConsts.DbTablePrefix + "PromotionUsageHistories");
+            builder.ToTable(TrainMetasolAbpConsts.DbTablePrefix + "PromotionUsageHistories");
             builder.HasKey(x => x.Id);
         }
     }
